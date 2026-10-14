@@ -1,0 +1,101 @@
+export const devData = {
+  mode: "dev" as const,
+  accent: "#C6F135",
+  hero: {
+    greeting: "Hey, I'm blackyy",
+    role: "Full-Stack Developer",
+    tagline: "I build digital things that people actually remember. Fast, functional, and built to last.",
+    description:
+      "I work across the front-end and back-end — from pixel-perfect interfaces to the APIs and databases that power them. I care about the details most people never notice.",
+  },
+  about: {
+    title: "The short version",
+    paragraphs: [
+      "I'm a developer who gives a damn. Not just about whether things work — but how they feel to use.",
+      "I started coding because I wanted to build stuff. I kept doing it because I realized the best software is invisible. It just gets out of your way.",
+      "When I'm not shipping, I'm probably breaking things in a side project or learning a new framework I'll never use in production.",
+    ],
+    details: [
+      { label: "Based in", value: "Remote" },
+      { label: "Experience", value: "3+ years" },
+      { label: "Focus", value: "Full-stack web" },
+    ],
+  },
+  skills: [
+    { name: "React", category: "Frontend", level: 90 },
+    { name: "TypeScript", category: "Language", level: 88 },
+    { name: "Node.js", category: "Backend", level: 85 },
+    { name: "Next.js", category: "Framework", level: 92 },
+    { name: "Laravel", category: "Backend", level: 80 },
+    { name: "Vue", category: "Frontend", level: 75 },
+    { name: "PostgreSQL", category: "Database", level: 82 },
+    { name: "Tailwind", category: "Styling", level: 90 },
+  ],
+  projects: [
+    {
+      title: "Project Name",
+      description: "A web app that solves a real problem. Clean interface, fast backend, no bloat.",
+      category: "Web App",
+      tools: ["React", "Node.js", "PostgreSQL"],
+      year: "2025",
+      link: "https://github.com/itzmeblack",
+      image: "/placeholder-dev.jpg",
+    },
+    {
+      title: "Project Name",
+      description: "E-commerce platform with a custom checkout flow and admin dashboard.",
+      category: "E-Commerce",
+      tools: ["Next.js", "Laravel", "Stripe"],
+      year: "2024",
+      link: "https://github.com/itzmeblack",
+      image: "/placeholder-dev.jpg",
+    },
+    {
+      title: "Project Name",
+      description: "Real-time collaboration tool with live cursors and instant sync.",
+      category: "SaaS",
+      tools: ["Vue", "Node.js", "WebSocket"],
+      year: "2024",
+      link: "https://github.com/itzmeblack",
+      image: "/placeholder-dev.jpg",
+    },
+    {
+      title: "Project Name",
+      description: "Open-source library that makes boring stuff slightly less boring.",
+      category: "Open Source",
+      tools: ["TypeScript", "Vite"],
+      year: "2023",
+      link: "https://github.com/itzmeblack",
+      image: "/placeholder-dev.jpg",
+    },
+  ],
+  experience: [
+    {
+      role: "Full-Stack Developer",
+      company: "Freelance",
+      period: "2023 — Present",
+      description: "Building web applications for startups and small businesses. End-to-end ownership from database to deploy.",
+    },
+    {
+      role: "Frontend Developer",
+      company: "Project Name",
+      period: "2022 — 2023",
+      description: "Led the front-end rebuild. Cut load times by 60% and made the UI something people actually enjoyed using.",
+    },
+    {
+      role: "Junior Developer",
+      company: "Project Name",
+      period: "2021 — 2022",
+      description: "Learned how much I didn't know. Shipped features, broke things, fixed them, repeat.",
+    },
+  ],
+  stats: [
+    { value: 3, suffix: "+", label: "Years coding" },
+    { value: 20, suffix: "+", label: "Projects shipped" },
+    { value: 15, suffix: "+", label: "Happy clients" },
+  ],
+  contact: {
+    title: "Have a project in mind?",
+    subtitle: "Tell me what you're building. I'll tell you if I can help.",
+  },
+};
