@@ -1,1 +1,6 @@
 public/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/of/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/othmanl[[:space:]]reels/Reels/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/seastems/reels-20261014T125650Z-1-001/reels/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/volcano[[:space:]]reels/*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/seastems/*.mp4 filter=lfs diff=lfs merge=lfs -text
